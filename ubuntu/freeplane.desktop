@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Freeplane
+Comment=Free mind mapping and knowledge management software
+Icon=/opt/versions/freeplane/freeplane-1.9.6/freeplane.svg
+Exec=/opt/versions/freeplane/freeplane-wrapper.sh
+Actions=
+Categories=Chart;Office;
+StartupNotify=true
+OnlyShowIn=Old;
