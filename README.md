@@ -19,10 +19,19 @@ Templates for use with Freeplane mind-map tool
 
 ## Requirements
 
-- _(List requirements here)_
+- Java JDK <= 15 (recommend OpenJDK 11 LTS)
+
+
+### Ubuntu
+
+```bash
+sudo apt install openjdk-11-jdk
+```
 
 
 ## References
 
-- _(List references here)_
+- [freeplane.org][]
 
+
+ [freeplane.org]: https://www.freeplane.org/wiki/index.php/Home
