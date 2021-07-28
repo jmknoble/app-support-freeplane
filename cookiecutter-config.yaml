@@ -1,0 +1,14 @@
+default_context:
+  category: general
+  description: Templates for use with Freeplane mind-map tool
+  git_base_url: https://github.com/jmknoble
+  git_group: jmknoble
+  git_project: freeplane-templates
+  git_url: https://github.com/jmknoble/freeplane-templates
+  package_name: freeplane_templates
+  project_name: freeplane-templates
+  project_type: generic
+  team_email: jmknoble@pobox.com
+  team_name: jmknoble
+  title: Freeplane Templates
+  version: 0.1.0
