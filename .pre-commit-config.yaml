@@ -16,6 +16,11 @@ repos:
         name: check-line-endings
         args: ['--fix=no']
 
+      - id: check-xml
+        name: check for malformed *.mm files
+        types: ["file"]
+        files: '.*\.mm$'
+
   - repo: https://github.com/adrienverge/yamllint
     rev: v1.26.1
     hooks:
