@@ -3,6 +3,8 @@
 set -e
 set -u
 
+umask 022
+
 USERNAME="`id -un`"
 USERID="`id -u`"
 TMP_DIR="/run/user/${USERID}/freeplane"
