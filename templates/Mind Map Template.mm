@@ -16,11 +16,15 @@
 <richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.details">
+<font SIZE="10"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
 <font SIZE="9"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ffffff" TEXT_ALIGN="LEFT"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ffffff" TEXT_ALIGN="LEFT">
+<font SIZE="10"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.floating">
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
@@ -72,12 +76,15 @@
 <edge WIDTH="3"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,5" FORMAT="NO_FORMAT" BORDER_WIDTH_LIKE_EDGE="true" VGAP_QUANTITY="4 pt" MIN_WIDTH="1 cm">
+<font SIZE="10"/>
 <edge WIDTH="2"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,6" FORMAT="NO_FORMAT" BORDER_WIDTH_LIKE_EDGE="true" VGAP_QUANTITY="4 pt" MIN_WIDTH="1 cm">
+<font SIZE="10"/>
 <edge WIDTH="2"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,7" FORMAT="NO_FORMAT" BORDER_WIDTH_LIKE_EDGE="true" VGAP_QUANTITY="4 pt" MIN_WIDTH="1 cm">
+<font SIZE="10"/>
 <edge WIDTH="2"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,8" FORMAT="NO_FORMAT" BORDER_WIDTH_LIKE_EDGE="true" VGAP_QUANTITY="4 pt" MIN_WIDTH="1 cm">
