@@ -1,6 +1,6 @@
 <map version="freeplane 1.9.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Mind Map" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1626900726455">
+<node TEXT="Mind Map" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1627517841829">
 <font BOLD="false"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <hook NAME="MapStyle">
@@ -16,7 +16,7 @@
 <richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.details" FORMAT="markdownPatternFormat"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
 <font SIZE="9"/>
 </stylenode>
@@ -45,6 +45,10 @@
 <font STRIKETHROUGH="true" ITALIC="true"/>
 </stylenode>
 <stylenode TEXT="Markdown Text" FORMAT="markdownPatternFormat"/>
+<stylenode TEXT="Markdown Details"><richcontent CONTENT-TYPE="plain/markdown" TYPE="DETAILS"/>
+</stylenode>
+<stylenode TEXT="Markdown Note"><richcontent TYPE="NOTE" CONTENT-TYPE="plain/markdown"/>
+</stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" ID="ID_933583150" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="6 pt" BORDER_WIDTH="3 px" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#666666" VGAP_QUANTITY="28 pt" MIN_WIDTH="1 cm">
