@@ -19,4 +19,4 @@ if [ ! -d "${TMP_DIR}" ]; then
     )
 fi
 
-/opt/app/freeplane/freeplane.sh  >"${LOGFILE}" 2>&1
+/opt/app/freeplane/freeplane.sh >"${LOGFILE}" 2>&1
