@@ -12,6 +12,8 @@ Resources for use with Freeplane mind-map tool
 ## Contents
 
 - [What's Here](#whats-here)
+- [What's Freeplane?](#whats-freeplane)
+    - [A few things Freeplane is reasonably good at](#a-few-things-freeplane-is-reasonably-good-at)
 - [Freeplane Requirements](#freeplane-requirements)
 - [Installing Freeplane](#installing-freeplane)
     - [On Mac](#on-mac)
@@ -37,6 +39,33 @@ Resources for use with Freeplane mind-map tool
 >
 > _As noted above, these are my personal preferences.  They may not work for
 > everyone.  Your mileage may vary._
+
+
+## What's Freeplane?
+
+Freeplane is an open source Java-based desktop application for creating [mind
+map]s.  It works on Mac, Linux, and Windows.  See [freeplane.org][] for
+further info.
+
+
+### A few things Freeplane is reasonably good at
+
+- Outlining and drafting a complex [Markdown][] document:
+    - Create your mind map using my
+      [markdown-mind-map-template.mm](freeplane/templates/markdown-mind-map-template.mm)
+      template.
+    - Nodes become headings.
+    - Node details become text.
+    - Export your mindap as Markdown.
+    - See the [Markdown Guide][] for an easy start to Markdown,
+- Organizing topics such as epics and features for project planning:
+    - The project is the central node.
+    - Epics are the next-level nodes.
+    - Features are next.
+    - Stories can be next.
+    - Export your mind map as XLS, and you can open it as a spreadsheet.
+    - With some tweaking, you may be able to turn the spreadsheet into
+      something loadable into Azure DevOps work items.
 
 
 ## Freeplane Requirements
@@ -66,7 +95,13 @@ Download from [freeplane.org][] and good luck.
 ## References
 
 - [freeplane.org][]
+- [Homebrew][]
+- [Markdown][]
+- [Markdown Guide][]
 
 
  [freeplane.org]: https://www.freeplane.org/wiki/index.php/Home
  [Homebrew]: https://brew.sh/
+ [Markdown]: https://en.wikipedia.org/wiki/Markdown
+ [Markdown Guide]: https://www.markdownguide.org/
+ [mind map]: https://en.wikipedia.org/wiki/Mind_map
